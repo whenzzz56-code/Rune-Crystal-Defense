@@ -1,0 +1,64 @@
+{
+  "id": "./",
+  "name": "Rune Crystal Defense",
+  "short_name": "Crystal Defense",
+  "description": "Defend the crystal with a squad of heroes, unlock classes and grow a skill tree.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#0f0d17",
+  "theme_color": "#0f0d17",
+  "lang": "en",
+  "categories": [
+    "games"
+  ],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "display_override": [
+    "standalone"
+  ],
+  "prefer_related_applications": false,
+  "dir": "ltr",
+  "screenshots": [
+    {
+      "src": "screenshots/gameplay.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Heroes defending the crystal"
+    },
+    {
+      "src": "screenshots/skill-tree.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Skill tree"
+    },
+    {
+      "src": "screenshots/menu.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Main menu"
+    }
+  ]
+}
